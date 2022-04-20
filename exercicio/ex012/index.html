@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midas em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dipositivos diferentes ou simlesmente aumente e diminua o tamanha do seu navegador </p>
+    
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+
+
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" autoplay controls></audio>
+        <source src="midia/vitoria.ogg" type="audio/mpeg">
+        <source src="midia/vitoria.ogg" type="audio/ogg">
+        <source src="midia/vitoria.ogg" type="audio/wav">
+        <p>infelizmente seu navegador não consegue carregar o audio</p>
+        <a href="midia/vitoria.ogg" target="blank" rel="external">clique aqui para baixar o arquivo mp3</a>
+    </audio>
+
+    </audio>
+</body>
+</html>

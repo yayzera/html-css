@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, #FFFFFF, 100%, #010B40);
+    color: #156064;
+    font-family: brabissima;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    
+}
